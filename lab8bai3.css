@@ -1,0 +1,103 @@
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+    text-align: left;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#page{
+    max-width: 1000px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px black;
+}
+.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.vmenu a{
+    background: url(images/Capture.JPG)no-repeat 5px center ;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover{
+    background-color: orangered ;
+    color: white;
+    font-weight: bold;
+    background: url(images/Capture1.JPG)no-repeat 5px center;
+}
+header img{
+    width: 100%;
+}
+header .container{
+    background-size: 100% 100%;
+    height: 328px;
+    position: relative;
+}
+header .container h1{
+    color: white;
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 50px;
+    text-shadow: 0 0 20px orangered;
+    position: absolute;
+    left: 15px;
+    bottom: 30px;
+}
